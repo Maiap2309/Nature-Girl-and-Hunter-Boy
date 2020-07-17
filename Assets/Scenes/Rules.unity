@@ -285,11 +285,11 @@ MonoBehaviour:
     jump over swamps that don't correspond to your color, or the black colored representing
     the trash bin. If you fall in, you will die and will have to restart the game
     all over again. Feel free to keep playing a level until you get the rating you
-    want (ratings out of 5; 5 being excellent), or a better result time.\n\nNotice
-    how the Earth is a little dirty?\n \tHelp make the Earth a better place by throwing
-    trash into the correct trash bins. Bins include Recycling, Compost, and Trash.
-    If these steps aren't fulfilled, you won't be able to access certain parts of
-    the course, thus not being able to reach the finish with your partner in crime."
+    want (ratings out of 5; 5 being excellent), or a better result time.\n \tHelp
+    make the Earth a better place by throwing trash into the correct trash bins.
+    Bins include Recycling, Compost, and Trash. If these steps aren't fulfilled,
+    you won't be able to access certain parts of the course, thus not being able
+    to reach the finish with your partner in crime."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
@@ -358,12 +358,12 @@ MonoBehaviour:
   m_margin: {x: -451.38916, y: 28.209229, z: -516.3634, w: -506.33984}
   m_textInfo:
     textComponent: {fileID: 853271250}
-    characterCount: 945
+    characterCount: 904
     spriteCount: 0
-    spaceCount: 176
-    wordCount: 171
+    spaceCount: 167
+    wordCount: 163
     linkCount: 0
-    lineCount: 13
+    lineCount: 11
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
