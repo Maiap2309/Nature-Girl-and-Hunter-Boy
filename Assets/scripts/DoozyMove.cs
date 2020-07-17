@@ -32,7 +32,7 @@ public class DoozyMove : MonoBehaviour
         }
         else
         {
-            GetComponent<Animator>().SetBool("move", true);
+            GetComponent<Animator>().SetBool("move", false);
         }
 
         if (Input.GetKeyDown(KeyCode.UpArrow) && playerIsOnTheGround)
