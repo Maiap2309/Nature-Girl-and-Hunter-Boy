@@ -16,6 +16,7 @@ public class FixCameraFollowSmooth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(tone && ttwo )
         FixedCameraFollowSmooth(cam, tone, ttwo);
     }
     public void FixedCameraFollowSmooth(Camera cam, Transform t1, Transform t2)
