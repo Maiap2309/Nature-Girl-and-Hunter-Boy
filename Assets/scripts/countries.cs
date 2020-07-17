@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class countries : MonoBehaviour
 {
    public void Load(string name){
-        SceneManager.LoadCountry(name);
+        SceneManager.LoadScene(name);
     }
 
     public void Exit(){
