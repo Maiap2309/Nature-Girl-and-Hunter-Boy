@@ -12,6 +12,6 @@ public class MainMenu : MonoBehaviour
     public void howToPlay()
     {
         Debug.Log ("Quit");
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
+        SceneManager.LoadScene("Rules");
     }
 }

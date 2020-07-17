@@ -2,15 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
-public class countries : MonoBehaviour
+public class Back : MonoBehaviour
 {
-    public void LoadUSALevel() {
-        SceneManager.LoadScene("Master scene");
-    }
-
-    public void goToMainMenu() {
+       public void goToMainMenu() {
         SceneManager.LoadScene("Menu");
     }
-   
 }
