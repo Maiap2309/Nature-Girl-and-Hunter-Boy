@@ -19,15 +19,24 @@ public class JollenMove : MonoBehaviour
     {
 
         if (Input.GetKey(KeyCode.D))
+        {
             GetComponent<Transform>().position -= new Vector3(0, 0, speed) * Time.deltaTime;
-
-
+            GetComponent<Animator>().SetBool("Move", true);
+        }
         else if (Input.GetKey(KeyCode.A))
+        {
             GetComponent<Transform>().position += new Vector3(0, 0, speed) * Time.deltaTime;
-
+            GetComponent<Animator>().SetBool("Move", true);
+        }
+        else
+        {
+            GetComponent<Animator>().SetBool("Move", false);
+        }
         if (Input.GetKeyDown(KeyCode.W) && playerIsOnTheGround)
             GetComponent<Rigidbody>().AddForce(new Vector3(0, jumpForce, 0), ForceMode.Impulse);
 
+
+        print(GetComponent<Animator>().GetBool("Move"));
     }
     private void OnCollisionStay(Collision collision)
     {
