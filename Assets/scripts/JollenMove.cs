@@ -41,10 +41,13 @@ public class JollenMove : MonoBehaviour
 
        
     }
+    /*
     private void rotateMove(int dir)
     {
         gameObject.transform.Rotate(0, dir, 0);
     }
+    */
+
     private void OnCollisionStay(Collision collision)
     {
         if (collision.gameObject.tag == "Ground")
