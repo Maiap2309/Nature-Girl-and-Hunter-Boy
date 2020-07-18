@@ -7,6 +7,7 @@ public class JollenMove : MonoBehaviour
     public float speed;
     public bool playerIsOnTheGround = true;
     public float jumpForce;
+
     // Start is called before the first frame update
 
     void Start()
@@ -21,11 +22,13 @@ public class JollenMove : MonoBehaviour
         if (Input.GetKey(KeyCode.D))
         {
             GetComponent<Transform>().position -= new Vector3(0, 0, speed) * Time.deltaTime;
+            //rotateMove(-1);
             GetComponent<Animator>().SetBool("Move", true);
         }
         else if (Input.GetKey(KeyCode.A))
         {
             GetComponent<Transform>().position += new Vector3(0, 0, speed) * Time.deltaTime;
+            //rotateMove(1);
             GetComponent<Animator>().SetBool("Move", true);
         }
         else
@@ -37,6 +40,10 @@ public class JollenMove : MonoBehaviour
 
 
        
+    }
+    private void rotateMove(int dir)
+    {
+        gameObject.transform.Rotate(0, dir, 0);
     }
     private void OnCollisionStay(Collision collision)
     {
