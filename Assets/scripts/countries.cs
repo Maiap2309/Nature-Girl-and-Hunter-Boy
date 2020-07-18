@@ -15,6 +15,40 @@ public class countries : MonoBehaviour
 
     }
 
+    public void LoadItalyLevel() {
+        SceneManager.LoadScene("Italy");
+
+    }
+
+
+    public void LoadChinaLevel() {
+        SceneManager.LoadScene("China");
+
+    }
+
+    public void LoadCanadaLevel() {
+        SceneManager.LoadScene("Canada");
+
+    }
+
+
+    public void LoadBrazilLevel() {
+        SceneManager.LoadScene("Brazil");
+
+    }
+
+
+    public void LoadJapanLevel() {
+        SceneManager.LoadScene("Japan");
+
+    }
+
+
+    public void LoadIndiaLevel() {
+        SceneManager.LoadScene("India");
+
+    }
+
     public void goToMainMenu() {
         SceneManager.LoadScene("Menu");
     }
