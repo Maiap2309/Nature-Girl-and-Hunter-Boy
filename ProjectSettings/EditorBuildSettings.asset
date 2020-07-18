@@ -12,6 +12,24 @@ EditorBuildSettings:
     path: Assets/Scenes/Master scene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
+    path: Assets/Scenes/Italy.unity
+    guid: bb61e8d0814f74f0dae49ab931561550
+  - enabled: 1
+    path: Assets/Scenes/China.unity
+    guid: a2f63a42493a843dabcdb165d8a8caa5
+  - enabled: 1
+    path: Assets/Scenes/Japan.unity
+    guid: 265ea63ed19cc43c79c4ff3b9e02773c
+  - enabled: 1
+    path: Assets/Scenes/India.unity
+    guid: ac146981fe5f847c582f01cd07a7fb2b
+  - enabled: 1
+    path: Assets/Scenes/Brazil.unity
+    guid: 43c709657167d41dd9f9e18fb89241ba
+  - enabled: 1
+    path: Assets/Scenes/Canada.unity
+    guid: 7aa543990ccb6423b8227072f507b63d
+  - enabled: 1
     path: Assets/Scenes/Rules.unity
     guid: 39f8ad3f4082f418593bac57e8ebbc0f
   - enabled: 1
