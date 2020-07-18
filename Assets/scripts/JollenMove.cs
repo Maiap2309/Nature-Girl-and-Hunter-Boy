@@ -36,7 +36,7 @@ public class JollenMove : MonoBehaviour
             GetComponent<Rigidbody>().AddForce(new Vector3(0, jumpForce, 0), ForceMode.Impulse);
 
 
-        print(GetComponent<Animator>().GetBool("Move"));
+       
     }
     private void OnCollisionStay(Collision collision)
     {
