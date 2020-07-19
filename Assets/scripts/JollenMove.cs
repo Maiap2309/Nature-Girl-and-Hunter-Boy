@@ -45,6 +45,7 @@ public class JollenMove : MonoBehaviour
     private void rotateMove(int dir)
     {
         transform.eulerAngles = new Vector3(transform.eulerAngles.x, 180 * dir, transform.eulerAngles.z);
+        print(dir);
     }
   
 
