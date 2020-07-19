@@ -21,6 +21,7 @@ public class DoozyMove : MonoBehaviour
         if (Input.GetKey(KeyCode.RightArrow))
         {
             GetComponent<Transform>().position -= new Vector3(0, 0, speed) * Time.deltaTime;
+            rotateMove(180);
             GetComponent<Animator>().SetBool("move", true);
         }
 
@@ -28,6 +29,7 @@ public class DoozyMove : MonoBehaviour
         else if (Input.GetKey(KeyCode.LeftArrow))
         {
             GetComponent<Transform>().position += new Vector3(0, 0, speed) * Time.deltaTime;
+            rotateMove(0);
             GetComponent<Animator>().SetBool("move", true);
         }
         else
@@ -39,6 +41,14 @@ public class DoozyMove : MonoBehaviour
             GetComponent<Rigidbody>().AddForce(new Vector3(0, jumpForce, 0), ForceMode.Impulse);
 
     }
+
+
+    private void rotateMove(float dir)
+    {
+        transform.eulerAngles = new Vector3(transform.eulerAngles.x, dir, transform.eulerAngles.z);
+        print(dir);
+    }
+
     private void OnCollisionStay(Collision collision)
     {
         if (collision.gameObject.tag == "Ground")

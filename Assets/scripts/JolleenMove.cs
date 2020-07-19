@@ -22,13 +22,14 @@ public class JolleenMove : MonoBehaviour
         if (Input.GetKey(KeyCode.D))
         {
             GetComponent<Transform>().position -= new Vector3(0, 0, speed) * Time.deltaTime;
-           rotateMove(1);
+           rotateMove(180);
             GetComponent<Animator>().SetBool("Move", true);
         }
         else if (Input.GetKey(KeyCode.A))
         {
             GetComponent<Transform>().position += new Vector3(0, 0, speed) * Time.deltaTime;
-          rotateMove(-1);
+          rotateMove(0);
+
             GetComponent<Animator>().SetBool("Move", true);
         }
         else
@@ -42,9 +43,9 @@ public class JolleenMove : MonoBehaviour
        
     }
 
-    private void rotateMove(int dir)
+    private void rotateMove(float dir)
     {
-        transform.eulerAngles = new Vector3(transform.eulerAngles.x, 180 * dir, transform.eulerAngles.z);
+        transform.eulerAngles = new Vector3(transform.eulerAngles.x, dir, transform.eulerAngles.z);
         print(dir);
     }
   
