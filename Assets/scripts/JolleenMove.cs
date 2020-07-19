@@ -22,13 +22,13 @@ public class JolleenMove : MonoBehaviour
         if (Input.GetKey(KeyCode.D))
         {
             GetComponent<Transform>().position -= new Vector3(0, 0, speed) * Time.deltaTime;
-            //rotateMove(-1);
+           rotateMove(1);
             GetComponent<Animator>().SetBool("Move", true);
         }
         else if (Input.GetKey(KeyCode.A))
         {
             GetComponent<Transform>().position += new Vector3(0, 0, speed) * Time.deltaTime;
-            //rotateMove(1);
+          rotateMove(-1);
             GetComponent<Animator>().SetBool("Move", true);
         }
         else
@@ -41,12 +41,13 @@ public class JolleenMove : MonoBehaviour
 
        
     }
-    /*
+
     private void rotateMove(int dir)
     {
-        gameObject.transform.Rotate(0, dir, 0);
+        transform.eulerAngles = new Vector3(transform.eulerAngles.x, 180 * dir, transform.eulerAngles.z);
+        print(dir);
     }
-    */
+  
 
     private void OnCollisionStay(Collision collision)
     {
