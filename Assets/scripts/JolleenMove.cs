@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class JollenMove : MonoBehaviour
+public class JolleenMove : MonoBehaviour
 {
     public float speed;
     public bool playerIsOnTheGround = true;
