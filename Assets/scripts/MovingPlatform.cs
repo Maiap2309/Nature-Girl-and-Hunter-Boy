@@ -31,7 +31,8 @@ public class MovingPlatform : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(transform.position != current_target)
+        print(Mathf.Abs(transform.position.magnitude - current_target.magnitude));
+        if(Mathf.Abs(transform.position.magnitude-current_target.magnitude)>=.1f)
         {
             MovePlatform();
         }
@@ -44,7 +45,7 @@ public class MovingPlatform : MonoBehaviour
     void MovePlatform()
     {
         Vector3 heading = current_target - transform.position;
-        print(heading);
+
         transform.position += (heading / heading.magnitude) * speed * Time.deltaTime;
         if(heading.magnitude< tolerance)
         {
@@ -58,6 +59,7 @@ public class MovingPlatform : MonoBehaviour
         {
             if(Time.time-delay_start>delay_time)
             {
+                print("test");
                 NextPlatform();
             }
         }

@@ -7,6 +7,7 @@ public class JolleenMove : MonoBehaviour
     public float speed;
     public bool playerIsOnTheGround = true;
     public float jumpForce;
+    public bool movementChange;
 
     // Start is called before the first frame update
 
@@ -20,15 +21,38 @@ public class JolleenMove : MonoBehaviour
     {
 
         if (Input.GetKey(KeyCode.D))
+        
         {
-            GetComponent<Transform>().position -= new Vector3(0, 0, speed) * Time.deltaTime;
-           rotateMove(180);
+            if (movementChange)
+            {
+                GetComponent<Transform>().position -= new Vector3(0, 0, speed) * Time.deltaTime;
+                rotateMove(180);
+            }
+            else
+            {
+                GetComponent<Transform>().position -= new Vector3(speed, 0,0) * Time.deltaTime;
+                rotateMove(90);
+            }
+
+           
+           
+
             GetComponent<Animator>().SetBool("Move", true);
         }
         else if (Input.GetKey(KeyCode.A))
         {
-            GetComponent<Transform>().position += new Vector3(0, 0, speed) * Time.deltaTime;
-          rotateMove(0);
+
+            if (movementChange)
+            {
+                GetComponent<Transform>().position += new Vector3(0, 0, speed) * Time.deltaTime;
+                rotateMove(0);
+            }
+            else
+            {
+                GetComponent<Transform>().position += new Vector3(speed, 0, 0) * Time.deltaTime;
+                rotateMove(270);
+            }
+           
 
             GetComponent<Animator>().SetBool("Move", true);
         }

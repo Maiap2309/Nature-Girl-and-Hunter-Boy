@@ -138,6 +138,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -28.2
       objectReference: {fileID: 0}
+    - target: {fileID: 1719376414673740604, guid: 3bf195e90e1044498a401f9a2e2ff657,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7180480644783115974, guid: 3bf195e90e1044498a401f9a2e2ff657,
         type: 3}
       propertyPath: m_Name
@@ -4434,12 +4439,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 2112371524}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bbabc2acb971463f91d5e6f1a517f38, type: 3}
+  m_Script: {fileID: 11500000, guid: 12bfdc69f1cb3451198dec82281d2269, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 2
   playerIsOnTheGround: 1
-  jumpForce: 0
+  jumpForce: 5
+  left: 97
+  right: 100
+  jump: 119
 --- !u!95 &2112371526
 Animator:
   serializedVersion: 3

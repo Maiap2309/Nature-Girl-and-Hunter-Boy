@@ -3762,6 +3762,7 @@ MonoBehaviour:
   speed: 3
   playerIsOnTheGround: 1
   jumpForce: 5
+  movementChange: 1
 --- !u!65 &1856002272
 BoxCollider:
   m_ObjectHideFlags: 0
