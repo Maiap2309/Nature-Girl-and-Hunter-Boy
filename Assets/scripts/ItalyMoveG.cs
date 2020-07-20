@@ -24,13 +24,13 @@ public class ItalyMoveG : MonoBehaviour
         if (Input.GetKey(left))
         {
             GetComponent<Transform>().position -= new Vector3(speed, 0, 0) * Time.deltaTime;
-            rotateMove(180);
+            rotateMove(270);
             GetComponent<Animator>().SetBool("Move", true);
         }
         else if (Input.GetKey(right))
         {
             GetComponent<Transform>().position += new Vector3(speed,0,0) * Time.deltaTime;
-            rotateMove(0);
+            rotateMove(90);
 
             GetComponent<Animator>().SetBool("Move", true);
         }
