@@ -2265,7 +2265,7 @@ MonoBehaviour:
   - {x: -7.5, y: 1.96, z: -30.02}
   point_number: 0
   tolerance: 0
-  speed: 1
+  speed: 3
   delay_time: 1
   automatic: 1
 --- !u!1 &1275797127
