@@ -7,7 +7,9 @@ public class ItalyMoveG : MonoBehaviour
     public float speed;
     public bool playerIsOnTheGround = true;
     public float jumpForce;
-
+    public KeyCode left;
+    public KeyCode right;
+    public KeyCode jump;
     // Start is called before the first frame update
 
     void Start()
@@ -19,15 +21,15 @@ public class ItalyMoveG : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(left))
         {
-            GetComponent<Transform>().position -= new Vector3(0, speed, 0) * Time.deltaTime;
+            GetComponent<Transform>().position -= new Vector3(speed, 0, 0) * Time.deltaTime;
             rotateMove(180);
             GetComponent<Animator>().SetBool("Move", true);
         }
-        else if (Input.GetKey(KeyCode.A))
+        else if (Input.GetKey(right))
         {
-            GetComponent<Transform>().position += new Vector3(0,speed,0) * Time.deltaTime;
+            GetComponent<Transform>().position += new Vector3(speed,0,0) * Time.deltaTime;
             rotateMove(0);
 
             GetComponent<Animator>().SetBool("Move", true);
@@ -36,7 +38,7 @@ public class ItalyMoveG : MonoBehaviour
         {
             GetComponent<Animator>().SetBool("Move", false);
         }
-        if (Input.GetKeyDown(KeyCode.W) && playerIsOnTheGround)
+        if (Input.GetKeyDown(jump) && playerIsOnTheGround)
             GetComponent<Rigidbody>().AddForce(new Vector3(0, jumpForce, 0), ForceMode.Impulse);
 
 

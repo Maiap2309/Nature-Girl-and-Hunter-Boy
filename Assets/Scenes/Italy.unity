@@ -1226,6 +1226,9 @@ MonoBehaviour:
   speed: 2
   playerIsOnTheGround: 1
   jumpForce: 5
+  left: 97
+  right: 100
+  jump: 119
 --- !u!95 &427706976
 Animator:
   serializedVersion: 3
@@ -3665,12 +3668,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1371438288}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a7e167aafcdd149d29bb093c9f0f942e, type: 3}
+  m_Script: {fileID: 11500000, guid: 12bfdc69f1cb3451198dec82281d2269, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2
   playerIsOnTheGround: 1
   jumpForce: 5
+  left: 276
+  right: 275
+  jump: 273
 --- !u!95 &1371438290
 Animator:
   serializedVersion: 3
