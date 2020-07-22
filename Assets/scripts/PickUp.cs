@@ -19,6 +19,7 @@ public class PickUp : MonoBehaviour
         }
         else if (Input.GetKeyDown(pick) && holdingObject)
         {
+            myObject.GetComponent<Rigidbody>().detectCollisions = true;
             holdingObject = false;
             myObject = null;
         }
@@ -30,6 +31,7 @@ public class PickUp : MonoBehaviour
     void HoldObject()
     {
         print(movementChange);
+        myObject.GetComponent<Rigidbody>().detectCollisions = false;
         myObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
         myObject.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
         /*

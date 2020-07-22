@@ -19,7 +19,7 @@ public class USAMovingPlatform : MonoBehaviour
         if (!completed && trashCounter.transform.childCount <= 0)
         {
             completed = true;
-            platform.transform.position = new Vector3(platform.transform.position.x,platform.transform.position.y+3,platform.transform.position.z);
+            platform.transform.position = new Vector3(platform.transform.position.x,platform.transform.position.y+4,platform.transform.position.z);
         }
 
     }
