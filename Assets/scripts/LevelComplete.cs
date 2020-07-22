@@ -8,6 +8,7 @@ public class LevelComplete : MonoBehaviour
     private NatureGirlDoor natureDoor;
 
     private HunterBoyDoor hunterDoor;
+    public string name;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +21,7 @@ public class LevelComplete : MonoBehaviour
     {
         if(natureDoor.touching && hunterDoor.touching)
         {
-            SceneManager.LoadScene("levels");
+            SceneManager.LoadScene(name);
         }
     }
 }
