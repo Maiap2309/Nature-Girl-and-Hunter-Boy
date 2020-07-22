@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ItalyMoveG : MonoBehaviour
+public class MoveBoy : MonoBehaviour
 {
     public float speed;
     public bool playerIsOnTheGround = true;
@@ -25,18 +25,18 @@ public class ItalyMoveG : MonoBehaviour
         {
             GetComponent<Transform>().position -= new Vector3(speed, 0, 0) * Time.deltaTime;
             rotateMove(270);
-            GetComponent<Animator>().SetBool("Move", true);
+            GetComponent<Animator>().SetBool("move", true);
         }
         else if (Input.GetKey(right))
         {
-            GetComponent<Transform>().position += new Vector3(speed,0,0) * Time.deltaTime;
+            GetComponent<Transform>().position += new Vector3(speed, 0, 0) * Time.deltaTime;
             rotateMove(90);
 
-            GetComponent<Animator>().SetBool("Move", true);
+            GetComponent<Animator>().SetBool("move", true);
         }
         else
         {
-            GetComponent<Animator>().SetBool("Move", false);
+            GetComponent<Animator>().SetBool("move", false);
         }
         if (Input.GetKeyDown(jump) && playerIsOnTheGround)
             GetComponent<Rigidbody>().AddForce(new Vector3(0, jumpForce, 0), ForceMode.Impulse);
