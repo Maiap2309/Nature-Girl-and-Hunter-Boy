@@ -11,14 +11,14 @@ public class HunterBoyDoor : MonoBehaviour
         touching = false;  
     }
 
-    private void OnCollisionStay(Collision collision)
+    private void OnTriggerStay(Collider collision)
     {
         if (collision.gameObject.tag == "HunterBoy")
         {
             touching = true;
         }
     }
-    private void OnCollisionExit(Collision collision)
+    private void OnTriggerExit(Collider collision)
     {
         if (collision.gameObject.tag == "HunterBoy")
         {
