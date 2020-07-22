@@ -5191,8 +5191,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points:
-  - {x: -3.91, y: -19.68, z: 19.998}
-  - {x: -3.91, y: -19.68, z: 22.01}
+  - {x: -3.91, y: -19.68, z: 23.72}
+  - {x: -3.91, y: -19.68, z: 20.08}
   point_number: 0
   tolerance: 0
   speed: 1
@@ -5266,7 +5266,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1734857971}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.91, y: -19.68, z: 22.01}
+  m_LocalPosition: {x: -3.91, y: -19.68, z: 20.05}
   m_LocalScale: {x: 2.8323622, y: 0.37810257, z: 3.205305}
   m_Children:
   - {fileID: 405760266}
@@ -6433,6 +6433,7 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1338422583}
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 4592771305492239749, guid: 0be43ffc121134084b6cf97285c4beb7,
         type: 3}
       propertyPath: m_text
@@ -6474,6 +6475,8 @@ PrefabInstance:
       value: 1
 >>>>>>> 8f4ac7a720dceeda28e21ec6ffdd9daee8b709d7
       objectReference: {fileID: 0}
+=======
+>>>>>>> 145cc9c7cf8b3c7fbe9c05ad407269e845e0eecb
     - target: {fileID: 4592771305956695588, guid: 0be43ffc121134084b6cf97285c4beb7,
         type: 3}
       propertyPath: m_Name
