@@ -308,7 +308,7 @@ PrefabInstance:
     - target: {fileID: 3191167713260919396, guid: 8802ec95858db49c39837126d2444cec,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -22.959
+      value: -23.2
       objectReference: {fileID: 0}
     - target: {fileID: 3191167713260919396, guid: 8802ec95858db49c39837126d2444cec,
         type: 3}
@@ -318,7 +318,7 @@ PrefabInstance:
     - target: {fileID: 3191167713260919396, guid: 8802ec95858db49c39837126d2444cec,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -72.64
+      value: -72.3
       objectReference: {fileID: 0}
     - target: {fileID: 3191167713260919396, guid: 8802ec95858db49c39837126d2444cec,
         type: 3}
@@ -383,12 +383,12 @@ PrefabInstance:
     - target: {fileID: 3191167713260919419, guid: 8802ec95858db49c39837126d2444cec,
         type: 3}
       propertyPath: m_Size.z
-      value: 4.763911
+      value: 1.0477905
       objectReference: {fileID: 0}
     - target: {fileID: 3191167713260919419, guid: 8802ec95858db49c39837126d2444cec,
         type: 3}
       propertyPath: m_Center.z
-      value: -1.8819567
+      value: -0.023896044
       objectReference: {fileID: 0}
     - target: {fileID: 3191167713260919419, guid: 8802ec95858db49c39837126d2444cec,
         type: 3}
@@ -728,8 +728,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.0985469, y: 1, z: 1}
-  m_Center: {x: 0.04927302, y: 0, z: 0}
+  m_Size: {x: 1.0985469, y: 1, z: 4.8169866}
+  m_Center: {x: 0.049273007, y: 0, z: -1.9497768}
 --- !u!1 &1375353829 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4824214618920635126, guid: 2320b79d027284054b2d575bb8c9e510,
@@ -828,6 +828,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Jumping Doozy
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f12dbf22f71404dbc87bf7cae695c0,
+        type: 3}
+      propertyPath: m_TagString
+      value: HunterBoy
       objectReference: {fileID: 0}
     - target: {fileID: 6707588376926324475, guid: 46f12dbf22f71404dbc87bf7cae695c0,
         type: 3}
@@ -1139,6 +1144,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Running Jolleen
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 63cfe4fe908d240b59392b39e6f235bd,
+        type: 3}
+      propertyPath: m_TagString
+      value: NatureGirl
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63cfe4fe908d240b59392b39e6f235bd, type: 3}
