@@ -4,16 +4,31 @@ using UnityEngine;
 
 public class Restart : MonoBehaviour
 {
-    public string name;
     public GameObject canvas;
+    public bool killBoth; 
+    public string name;
     private void OnTriggerEnter(Collider other)
-    {
-        if(other.tag== name)
+    {   
+        if (killBoth)
         {
-            canvas.SetActive(true);
-            FindObjectOfType<Timer>().gameRunning=false;
-            Destroy(other.gameObject);
+            if(other.tag == "NatureGirl" || other.tag =="HunterBoy")
+            {
+                canvas.SetActive(true);
+                FindObjectOfType<Timer>().gameRunning=false;
+                Destroy(other.gameObject);
+            }
+
         }
+        else 
+        {
+            if (other.tag == name)
+            {
+                canvas.SetActive(true);
+                FindObjectOfType<Timer>().gameRunning=false;
+                Destroy(other.gameObject);
+            }
+        }
+        
     }
 }
 
