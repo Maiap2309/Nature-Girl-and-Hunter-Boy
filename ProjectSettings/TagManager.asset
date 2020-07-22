@@ -8,6 +8,9 @@ TagManager:
   - NatureGirl
   - HunterBoy
   - Object
+  - Compost
+  - Trash
+  - Recycling
   layers:
   - Default
   - TransparentFX

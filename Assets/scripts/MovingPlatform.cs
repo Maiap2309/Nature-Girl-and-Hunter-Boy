@@ -31,7 +31,7 @@ public class MovingPlatform : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        print(Mathf.Abs(transform.position.magnitude - current_target.magnitude));
+//        print(Mathf.Abs(transform.position.magnitude - current_target.magnitude));
         if(Mathf.Abs(transform.position.magnitude-current_target.magnitude)>=.1f)
         {
             MovePlatform();

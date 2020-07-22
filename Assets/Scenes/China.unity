@@ -4805,7 +4805,7 @@ RectTransform:
   m_Children:
   - {fileID: 1409564483}
   m_Father: {fileID: 904302586}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -5244,6 +5244,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56a3fee315a0644179090d198ab6f4f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myObject: {fileID: 0}
+  holdingObject: 0
   pick: 101
   movementChange: 0
 --- !u!65 &2112371530
