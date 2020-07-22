@@ -5789,8 +5789,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8e080a5f0fd74d12bf649bcdfb8c2ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: NatureGirl
   canvas: {fileID: 548263791}
+  killBoth: 0
+  name: NatureGirl
 --- !u!1 &1734857971
 GameObject:
   m_ObjectHideFlags: 0
@@ -6012,8 +6013,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8e080a5f0fd74d12bf649bcdfb8c2ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: HunterBoy
   canvas: {fileID: 548263791}
+  killBoth: 0
+  name: HunterBoy
 --- !u!1 &1766263361
 GameObject:
   m_ObjectHideFlags: 0
@@ -6214,8 +6216,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8e080a5f0fd74d12bf649bcdfb8c2ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: NatureGirl
   canvas: {fileID: 548263791}
+  killBoth: 0
+  name: NatureGirl
 --- !u!114 &1842429198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6228,8 +6231,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8e080a5f0fd74d12bf649bcdfb8c2ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: HunterBoy
   canvas: {fileID: 548263791}
+  killBoth: 0
+  name: HunterBoy
 --- !u!1 &1851612391
 GameObject:
   m_ObjectHideFlags: 0
@@ -6426,8 +6430,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8e080a5f0fd74d12bf649bcdfb8c2ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: NatureGirl
   canvas: {fileID: 548263791}
+  killBoth: 0
+  name: NatureGirl
 --- !u!65 &1879352886
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6609,8 +6614,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8e080a5f0fd74d12bf649bcdfb8c2ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: NatureGirl
   canvas: {fileID: 548263791}
+  killBoth: 0
+  name: NatureGirl
 --- !u!114 &1954261380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6623,8 +6629,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8e080a5f0fd74d12bf649bcdfb8c2ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: HunterBoy
   canvas: {fileID: 548263791}
+  killBoth: 0
+  name: HunterBoy
 --- !u!1 &1977148283
 GameObject:
   m_ObjectHideFlags: 0
@@ -7214,6 +7221,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 4592771305956695588, guid: 0be43ffc121134084b6cf97285c4beb7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4592771305956695608, guid: 0be43ffc121134084b6cf97285c4beb7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7324,6 +7336,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1338422583}
+    - target: {fileID: 4592771306098985026, guid: 0be43ffc121134084b6cf97285c4beb7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4592771306098985031, guid: 0be43ffc121134084b6cf97285c4beb7,
         type: 3}
       propertyPath: m_text

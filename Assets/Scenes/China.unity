@@ -686,6 +686,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 107959440}
+  killBoth: 0
+  name: NatureGirl
 --- !u!1 &167881376
 GameObject:
   m_ObjectHideFlags: 0
@@ -2445,6 +2447,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 107959440}
+  killBoth: 1
+  name: 
 --- !u!1 &808032810
 GameObject:
   m_ObjectHideFlags: 0
@@ -3124,6 +3128,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 107959440}
+  killBoth: 0
+  name: HunterBoy
 --- !u!1 &1095701067
 GameObject:
   m_ObjectHideFlags: 0
@@ -3136,6 +3142,7 @@ GameObject:
   - component: {fileID: 1095701070}
   - component: {fileID: 1095701069}
   - component: {fileID: 1095701068}
+  - component: {fileID: 1095701072}
   m_Layer: 0
   m_Name: black swamp (2)
   m_TagString: Untagged
@@ -3218,6 +3225,21 @@ Transform:
   m_Father: {fileID: 808032811}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1095701072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095701067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8e080a5f0fd74d12bf649bcdfb8c2ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 107959440}
+  killBoth: 1
+  name: 
 --- !u!1 &1127999909
 GameObject:
   m_ObjectHideFlags: 0
@@ -3684,6 +3706,7 @@ GameObject:
   - component: {fileID: 1456024718}
   - component: {fileID: 1456024717}
   - component: {fileID: 1456024716}
+  - component: {fileID: 1456024720}
   m_Layer: 0
   m_Name: black swamp (1)
   m_TagString: Untagged
@@ -3765,6 +3788,21 @@ Transform:
   m_Father: {fileID: 808032811}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1456024720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456024715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8e080a5f0fd74d12bf649bcdfb8c2ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 107959440}
+  killBoth: 1
+  name: 
 --- !u!1001 &1502728059
 PrefabInstance:
   m_ObjectHideFlags: 0
