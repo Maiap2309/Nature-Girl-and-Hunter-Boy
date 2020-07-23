@@ -727,6 +727,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d54db6bb5ef41427b900fc3db954ddea, type: 3}
+--- !u!4 &582275769 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d54db6bb5ef41427b900fc3db954ddea,
+    type: 3}
+  m_PrefabInstance: {fileID: 582275768}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &647761928
 GameObject:
   m_ObjectHideFlags: 0
@@ -2243,6 +2249,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5501ff67884643bea11b35658ef976e, type: 3}
+--- !u!4 &1410373633 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e5501ff67884643bea11b35658ef976e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1410373632}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1444325706
 GameObject:
   m_ObjectHideFlags: 0
@@ -2449,6 +2461,7 @@ GameObject:
   - component: {fileID: 1587543709}
   - component: {fileID: 1587543708}
   - component: {fileID: 1587543711}
+  - component: {fileID: 1587543712}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2582,6 +2595,22 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1587543712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587543707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bcc57d7ea27d41f789a60ab6b959a4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  natureGirl: {fileID: 1410373633}
+  hunterBoy: {fileID: 582275769}
+  movementChange: 0
+  change: 9
 --- !u!1 &1702458899
 GameObject:
   m_ObjectHideFlags: 0

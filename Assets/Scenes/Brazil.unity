@@ -840,7 +840,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 554589400}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -5.6, y: 14.2, z: -52.77}
+  m_LocalPosition: {x: -5.6, y: 15.59, z: -52.77}
   m_LocalScale: {x: 22.226622, y: 18.050125, z: 0.43606678}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1510,8 +1510,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 4
   playerIsOnTheGround: 1
-  jumpForce: 5
+  jumpForce: 7
   movementChange: 1
+--- !u!4 &947230701 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e5501ff67884643bea11b35658ef976e,
+    type: 3}
+  m_PrefabInstance: {fileID: 947230696}
+  m_PrefabAsset: {fileID: 0}
 --- !u!95 &947230702
 Animator:
   serializedVersion: 3
@@ -1748,6 +1754,7 @@ GameObject:
   - component: {fileID: 1091749432}
   - component: {fileID: 1091749431}
   - component: {fileID: 1091749430}
+  - component: {fileID: 1091749433}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1820,6 +1827,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 1.5, y: 89.9, z: 0}
+--- !u!114 &1091749433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091749429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bcc57d7ea27d41f789a60ab6b959a4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  natureGirl: {fileID: 947230701}
+  hunterBoy: {fileID: 1097431472}
+  movementChange: 0
+  change: 9
 --- !u!1 &1094062137
 GameObject:
   m_ObjectHideFlags: 0
@@ -1963,6 +1986,12 @@ MonoBehaviour:
   speed: 4
   playerIsOnTheGround: 1
   jumpForce: 5
+--- !u!4 &1097431472 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d54db6bb5ef41427b900fc3db954ddea,
+    type: 3}
+  m_PrefabInstance: {fileID: 2058990743}
+  m_PrefabAsset: {fileID: 0}
 --- !u!95 &1097431473
 Animator:
   serializedVersion: 3

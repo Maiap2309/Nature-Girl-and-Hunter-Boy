@@ -1101,6 +1101,12 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
+--- !u!4 &427706979 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2a69bdb8b24ed45b8aa0ebe92b109788,
+    type: 3}
+  m_PrefabInstance: {fileID: 806841131}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &470255279
 GameObject:
   m_ObjectHideFlags: 0
@@ -2212,6 +2218,7 @@ GameObject:
   - component: {fileID: 918648203}
   - component: {fileID: 918648202}
   - component: {fileID: 918648201}
+  - component: {fileID: 918648204}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2284,6 +2291,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &918648204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918648200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bcc57d7ea27d41f789a60ab6b959a4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  natureGirl: {fileID: 427706979}
+  hunterBoy: {fileID: 1371438293}
+  movementChange: 0
+  change: 9
 --- !u!1 &953976406
 GameObject:
   m_ObjectHideFlags: 0
@@ -2848,6 +2871,12 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
+--- !u!4 &1371438293 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d54db6bb5ef41427b900fc3db954ddea,
+    type: 3}
+  m_PrefabInstance: {fileID: 2083879271}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1460598289
 GameObject:
   m_ObjectHideFlags: 0
