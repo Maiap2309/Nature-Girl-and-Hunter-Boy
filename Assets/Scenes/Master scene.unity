@@ -656,7 +656,7 @@ PrefabInstance:
     - target: {fileID: 6173023117322702812, guid: 9cf7a97e9aed244c0911c62b3cedb4dc,
         type: 3}
       propertyPath: m_Name
-      value: Trash Can to Sketchfab (1)
+      value: Compost
       objectReference: {fileID: 0}
     - target: {fileID: 6173023117322702815, guid: 9cf7a97e9aed244c0911c62b3cedb4dc,
         type: 3}
@@ -4095,7 +4095,7 @@ PrefabInstance:
     - target: {fileID: 3653511219122436423, guid: ced179c5ce1554bde8fed7380693911c,
         type: 3}
       propertyPath: m_Name
-      value: Trash Can to Sketchfab
+      value: recycling
       objectReference: {fileID: 0}
     - target: {fileID: 7897582906536087763, guid: ced179c5ce1554bde8fed7380693911c,
         type: 3}
@@ -5051,7 +5051,7 @@ PrefabInstance:
     - target: {fileID: 7180480644783115974, guid: 3bf195e90e1044498a401f9a2e2ff657,
         type: 3}
       propertyPath: m_Name
-      value: Trash Can to Sketchfab (2)
+      value: Trash Can
       objectReference: {fileID: 0}
     - target: {fileID: 7180480644783115977, guid: 3bf195e90e1044498a401f9a2e2ff657,
         type: 3}
