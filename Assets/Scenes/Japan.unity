@@ -152,20 +152,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Doozy running
       objectReference: {fileID: 0}
+    - target: {fileID: 4309217641938941528, guid: 7a28e1acbe1b84f0ca9297e7404cb214,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4309217641938941532, guid: 7a28e1acbe1b84f0ca9297e7404cb214,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4343673326672780509, guid: 7a28e1acbe1b84f0ca9297e7404cb214,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.17
+      value: -13.218
       objectReference: {fileID: 0}
     - target: {fileID: 4343673326672780509, guid: 7a28e1acbe1b84f0ca9297e7404cb214,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 16.05
+      value: 15.285
       objectReference: {fileID: 0}
     - target: {fileID: 4343673326672780509, guid: 7a28e1acbe1b84f0ca9297e7404cb214,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -56.1
+      value: -55.893
       objectReference: {fileID: 0}
     - target: {fileID: 4343673326672780509, guid: 7a28e1acbe1b84f0ca9297e7404cb214,
         type: 3}
@@ -3368,6 +3378,7 @@ GameObject:
   - component: {fileID: 1157872940}
   - component: {fileID: 1157872939}
   - component: {fileID: 1157872938}
+  - component: {fileID: 1157872942}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Ground
@@ -3449,6 +3460,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1157872942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157872937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8e080a5f0fd74d12bf649bcdfb8c2ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 0}
+  killBoth: 1
+  name: 
 --- !u!1 &1182246705
 GameObject:
   m_ObjectHideFlags: 0
@@ -4090,8 +4116,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1.1119919, z: 1}
+  m_Center: {x: 0, y: 0.05599594, z: 0}
 --- !u!23 &1365831691
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5834,12 +5860,12 @@ PrefabInstance:
     - target: {fileID: 4824214618920635114, guid: 2320b79d027284054b2d575bb8c9e510,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.7
+      value: -12.463
       objectReference: {fileID: 0}
     - target: {fileID: 4824214618920635114, guid: 2320b79d027284054b2d575bb8c9e510,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 15.7204
+      value: 15.816
       objectReference: {fileID: 0}
     - target: {fileID: 4824214618920635114, guid: 2320b79d027284054b2d575bb8c9e510,
         type: 3}
