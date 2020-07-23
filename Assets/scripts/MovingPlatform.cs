@@ -59,7 +59,7 @@ public class MovingPlatform : MonoBehaviour
         {
             if(Time.time-delay_start>delay_time)
             {
-                print("test");
+
                 NextPlatform();
             }
         }
