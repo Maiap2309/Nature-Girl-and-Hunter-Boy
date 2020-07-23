@@ -420,8 +420,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 9.999134, y: 9.884238, z: 8.968961}
+  m_Center: {x: 20.722845, y: -9.117307, z: -57.089554}
 --- !u!1001 &74570483
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -508,6 +508,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Recycling
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: 16ab4b88c1eaf48aabaab76dd46aa4e4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16ab4b88c1eaf48aabaab76dd46aa4e4, type: 3}
@@ -2362,8 +2367,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 16.577122, y: 34.0951, z: 16.72246}
+  m_Center: {x: 19.593372, y: 19.05615, z: -5.8223143}
 --- !u!54 &535236465
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6702,8 +6707,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points:
-  - {x: -3.91, y: -19.68, z: 23.72}
-  - {x: -3.91, y: -19.68, z: 20.08}
+  - {x: -3.91, y: -19.68, z: 20.05}
+  - {x: -3.91, y: -19.68, z: 22.16}
   point_number: 0
   tolerance: 0
   speed: 1
@@ -6777,7 +6782,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1734857971}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.91, y: -19.68, z: 20.05}
+  m_LocalPosition: {x: -3.91, y: -19.68, z: 22.16}
   m_LocalScale: {x: 2.8323622, y: 0.37810257, z: 3.205305}
   m_Children:
   - {fileID: 405760266}
@@ -8195,7 +8200,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2101023558}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1.4898148, z: 1}
@@ -8241,6 +8246,19 @@ MonoBehaviour:
   holdingObject: 0
   pick: 32
   movementChange: 0
+--- !u!65 &2101023565
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101023558}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.3202801, z: 1.4174786}
+  m_Center: {x: 0, y: 0.81640244, z: 0.20873928}
 --- !u!1 &2132393180 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f086272f0ab43406aa6838e3bf5a2af2,
