@@ -1118,7 +1118,7 @@ GameObject:
   - component: {fileID: 315090767}
   - component: {fileID: 315090766}
   m_Layer: 0
-  m_Name: LevelComplete
+  m_Name: LevelManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1133,9 +1133,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 315090765}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42728a67ca76247e989d450ff22212f6, type: 3}
+  m_Script: {fileID: 11500000, guid: fc7f4eea6cede4688aae17bfc115e649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trashCounter: {fileID: 1843997558}
+  platform: {fileID: 556993151}
 --- !u!4 &315090767
 Transform:
   m_ObjectHideFlags: 0

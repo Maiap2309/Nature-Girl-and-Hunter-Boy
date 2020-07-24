@@ -2108,12 +2108,6 @@ MonoBehaviour:
   playerIsOnTheGround: 1
   jumpForce: 10
   movementChange: 1
---- !u!4 &947230701 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e5501ff67884643bea11b35658ef976e,
-    type: 3}
-  m_PrefabInstance: {fileID: 947230696}
-  m_PrefabAsset: {fileID: 0}
 --- !u!95 &947230702
 Animator:
   serializedVersion: 3
@@ -2379,7 +2373,6 @@ GameObject:
   - component: {fileID: 1091749432}
   - component: {fileID: 1091749431}
   - component: {fileID: 1091749430}
-  - component: {fileID: 1091749433}
   - component: {fileID: 1091749434}
   m_Layer: 0
   m_Name: Main Camera
@@ -2421,7 +2414,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 68.375824
+  field of view: 64.54619
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -2447,28 +2440,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1091749429}
   m_LocalRotation: {x: 0.009263806, y: 0.7064289, z: -0.009247651, w: 0.70766294}
-  m_LocalPosition: {x: -52.1, y: 17, z: -40.1}
+  m_LocalPosition: {x: -55.9, y: 17.3, z: -40.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 1.5, y: 89.9, z: 0}
---- !u!114 &1091749433
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1091749429}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6bcc57d7ea27d41f789a60ab6b959a4e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  natureGirl: {fileID: 947230701}
-  hunterBoy: {fileID: 1097431472}
-  movementChange: 0
-  change: 9
 --- !u!108 &1091749434
 Light:
   m_ObjectHideFlags: 0
@@ -2673,12 +2650,6 @@ MonoBehaviour:
   speed: 6
   playerIsOnTheGround: 1
   jumpForce: 8
---- !u!4 &1097431472 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d54db6bb5ef41427b900fc3db954ddea,
-    type: 3}
-  m_PrefabInstance: {fileID: 2058990743}
-  m_PrefabAsset: {fileID: 0}
 --- !u!95 &1097431473
 Animator:
   serializedVersion: 3
