@@ -16,10 +16,11 @@ public class Bin : MonoBehaviour
         {
             if (col.tag == "Compost")
             {   
-                Debug.Log("my object name"+script.myObject.name);
                 script.myObject = null;
                 script.holdingObject=false;
                 Destroy(col.gameObject);
+                if(SuperHacky.staticOldClone != null)
+                SuperHacky.CreateNewDoozy();
             }
         } 
         else if(binType == 1)
