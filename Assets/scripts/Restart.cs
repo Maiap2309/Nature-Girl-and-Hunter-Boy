@@ -14,7 +14,8 @@ public class Restart : MonoBehaviour
             if(other.tag == "NatureGirl" || other.tag =="HunterBoy")
             {
                 canvas.SetActive(true);
-                FindObjectOfType<Timer>().gameRunning=false;
+                if (FindObjectOfType<Timer>())
+                    FindObjectOfType<Timer>().gameRunning=false;
                 Destroy(other.gameObject);
             }
 
