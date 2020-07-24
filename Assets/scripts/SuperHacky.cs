@@ -19,8 +19,5 @@ public class SuperHacky : MonoBehaviour
         public static void CreateNewDoozy() {
         Destroy(staticOldClone);
         staticOldClone=Instantiate(staticDoozy);
-
-    
-
     }
 }
