@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 79953185}
   - component: {fileID: 79953184}
   m_Layer: 0
-  m_Name: LevelComplete
+  m_Name: Scenemanager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -578,6 +578,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: black swamp
       objectReference: {fileID: 0}
+    - target: {fileID: 8197827411553794045, guid: 6e8a82b2a5def4dec8545b6f6cf7af80,
+        type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 2032564490}
     - target: {fileID: 8197827411553794047, guid: 6e8a82b2a5def4dec8545b6f6cf7af80,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1788,6 +1793,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: black swamp (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8197827411553794045, guid: 6e8a82b2a5def4dec8545b6f6cf7af80,
+        type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 2032564490}
     - target: {fileID: 8197827411553794047, guid: 6e8a82b2a5def4dec8545b6f6cf7af80,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3208,7 +3218,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 930589809}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.77, y: 5.87, z: 3.695}
+  m_LocalPosition: {x: -1.77, y: 6.09, z: 3.695}
   m_LocalScale: {x: 3.0000043, y: 0.27781022, z: 2.126589}
   m_Children: []
   m_Father: {fileID: 308372228}
@@ -3602,6 +3612,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: black swamp (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8197827411553794045, guid: 6e8a82b2a5def4dec8545b6f6cf7af80,
+        type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 2032564490}
     - target: {fileID: 8197827411553794047, guid: 6e8a82b2a5def4dec8545b6f6cf7af80,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3701,7 +3716,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1275691268}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.77, y: 6, z: 2.16}
+  m_LocalPosition: {x: -1.77, y: 6.29, z: 2.16}
   m_LocalScale: {x: 3.0000043, y: 0.5299999, z: 3.5960174}
   m_Children: []
   m_Father: {fileID: 308372228}
@@ -3782,12 +3797,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1f1c8bf786b53450b8efa3a0ba796d59,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 12.3281555
+      value: 12.3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1f1c8bf786b53450b8efa3a0ba796d59,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -17.68185
+      value: -16.58
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1f1c8bf786b53450b8efa3a0ba796d59,
         type: 3}
@@ -4637,6 +4652,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 3.2906597
       objectReference: {fileID: 0}
+    - target: {fileID: 4297596379600259343, guid: 9477a15a5381c43ef8a4ed8679ce67db,
+        type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 2032564490}
     - target: {fileID: 4297596379600259442, guid: 9477a15a5381c43ef8a4ed8679ce67db,
         type: 3}
       propertyPath: m_Name
@@ -5255,12 +5275,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 2a69bdb8b24ed45b8aa0ebe92b109788,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.93
+      value: 2.3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2a69bdb8b24ed45b8aa0ebe92b109788,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.38
+      value: -3.96
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2a69bdb8b24ed45b8aa0ebe92b109788,
         type: 3}
@@ -5577,6 +5597,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.33820486
       objectReference: {fileID: 0}
+    - target: {fileID: 4302506099927020999, guid: 20e3a37907a304cc4bd546bee8089af1,
+        type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 2032564490}
     - target: {fileID: 4302506099927021004, guid: 20e3a37907a304cc4bd546bee8089af1,
         type: 3}
       propertyPath: m_Name
@@ -5915,7 +5940,7 @@ GameObject:
   - component: {fileID: 1852671307}
   - component: {fileID: 1852671306}
   m_Layer: 5
-  m_Name: SceneManager
+  m_Name: LevelManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
