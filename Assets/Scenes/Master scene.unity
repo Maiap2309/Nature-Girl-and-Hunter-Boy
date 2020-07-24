@@ -1791,7 +1791,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 857764dd1352545b68116379ccc8520f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.464
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -6635,8 +6635,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 0.97000587}
+  m_Center: {x: 0, y: 0, z: 0.014997066}
 --- !u!23 &1954261376
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7425,6 +7425,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: deathForNatureGirl
       objectReference: {fileID: 0}
+    - target: {fileID: 4297596379600259443, guid: 9477a15a5381c43ef8a4ed8679ce67db,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0.3064507
+      objectReference: {fileID: 0}
+    - target: {fileID: 4297596379600259443, guid: 9477a15a5381c43ef8a4ed8679ce67db,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -0.0035664432
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9477a15a5381c43ef8a4ed8679ce67db, type: 3}
 --- !u!1001 &4302506101689365659
@@ -7442,7 +7452,7 @@ PrefabInstance:
     - target: {fileID: 4302506099927020992, guid: 20e3a37907a304cc4bd546bee8089af1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -23.987
+      value: -23.9
       objectReference: {fileID: 0}
     - target: {fileID: 4302506099927020992, guid: 20e3a37907a304cc4bd546bee8089af1,
         type: 3}
@@ -7488,6 +7498,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4302506099927020995, guid: 20e3a37907a304cc4bd546bee8089af1,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.9999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 4302506099927020995, guid: 20e3a37907a304cc4bd546bee8089af1,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0.7662438
+      objectReference: {fileID: 0}
+    - target: {fileID: 4302506099927020995, guid: 20e3a37907a304cc4bd546bee8089af1,
+        type: 3}
+      propertyPath: m_Center.z
+      value: 0.0072665517
       objectReference: {fileID: 0}
     - target: {fileID: 4302506099927020999, guid: 20e3a37907a304cc4bd546bee8089af1,
         type: 3}
