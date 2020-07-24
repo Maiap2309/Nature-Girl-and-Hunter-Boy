@@ -16,6 +16,7 @@ public class Bin : MonoBehaviour
         {
             if (col.tag == "Compost")
             {   
+                Debug.Log("my object name"+script.myObject.name);
                 script.myObject = null;
                 script.holdingObject=false;
                 Destroy(col.gameObject);
