@@ -48,7 +48,6 @@ public class MoveBoy : MonoBehaviour
     private void rotateMove(float dir)
     {
         transform.eulerAngles = new Vector3(transform.eulerAngles.x, dir, transform.eulerAngles.z);
-        print(dir);
     }
 
 
