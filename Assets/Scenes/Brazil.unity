@@ -2990,6 +2990,12 @@ MonoBehaviour:
   playerIsOnTheGround: 1
   jumpForce: 8
   movementChange: 1
+--- !u!4 &947230701 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e5501ff67884643bea11b35658ef976e,
+    type: 3}
+  m_PrefabInstance: {fileID: 947230696}
+  m_PrefabAsset: {fileID: 0}
 --- !u!95 &947230702
 Animator:
   serializedVersion: 3
@@ -3025,19 +3031,6 @@ MonoBehaviour:
   holdingObject: 0
   pick: 101
   movementChange: 0
---- !u!65 &947230704
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 947230697}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.864724, y: 1.6394536, z: 1.2595489}
-  m_Center: {x: -0.12132128, y: 0.812407, z: 0.12977377}
 --- !u!1001 &966183999
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6359,6 +6352,67 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1972516618
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1972516619}
+  - component: {fileID: 1972516621}
+  - component: {fileID: 1972516620}
+  m_Layer: 10
+  m_Name: PickUp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1972516619
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972516618}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 947230701}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1972516620
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972516618}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.864724, y: 1.6394536, z: 1.2595489}
+  m_Center: {x: -0.12132128, y: 0.812407, z: 0.12977377}
+--- !u!114 &1972516621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972516618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56a3fee315a0644179090d198ab6f4f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myObject: {fileID: 0}
+  holdingObject: 0
+  pick: 0
+  movementChange: 0
 --- !u!1 &1975123516
 GameObject:
   m_ObjectHideFlags: 0
@@ -7161,7 +7215,7 @@ PrefabInstance:
     - target: {fileID: 6920013488238683299, guid: 07cae89f6d0e6469698a69e5cb1cfd6b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -45.56
+      value: -39
       objectReference: {fileID: 0}
     - target: {fileID: 6920013488238683299, guid: 07cae89f6d0e6469698a69e5cb1cfd6b,
         type: 3}

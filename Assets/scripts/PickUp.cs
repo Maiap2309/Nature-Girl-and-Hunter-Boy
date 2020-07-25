@@ -58,7 +58,9 @@ public class PickUp : MonoBehaviour
             }
         }
         */
-         myObject.transform.position = new Vector3(transform.position.x, transform.position.y+1, transform.position.z);
+        //myObject.transform.position = new Vector3(transform.parent.position.x, transform.parent.position.y+1, transform.parent.position.z);
+        // print(transform.parent);
+        myObject.transform.position = new Vector3(transform.position.x, transform.position.y + 1.5f, transform.position.z);
     }
 
     private void OnTriggerStay(Collider other)
