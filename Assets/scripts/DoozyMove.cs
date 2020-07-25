@@ -40,7 +40,7 @@ public class DoozyMove : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.UpArrow) && playerIsOnTheGround)
             GetComponent<Rigidbody>().AddForce(new Vector3(0, jumpForce, 0), ForceMode.Impulse);
 
-        Debug.Log("is one ground"+playerIsOnTheGround);
+      
     }
 
 
