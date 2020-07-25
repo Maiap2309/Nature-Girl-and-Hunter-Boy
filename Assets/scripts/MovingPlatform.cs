@@ -45,7 +45,6 @@ public class MovingPlatform : MonoBehaviour
     void MovePlatform()
     {
         Vector3 heading = current_target - transform.position;
-        print(current_target);
         transform.position += (heading / heading.magnitude) * speed * Time.deltaTime;
         if(heading.magnitude< tolerance)
         {
